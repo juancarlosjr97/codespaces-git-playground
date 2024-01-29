@@ -4,3 +4,10 @@ This project is to guide how to spin up fully configured dev environment in the 
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/juancarlosjr97/codespaces-git-playground?quickstart=1)
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file.
+
+## Support Information
+
+- [LICENSE](./LICENSE.md)
