@@ -38,6 +38,70 @@ After creating a project from this template, update the [line](#codespace-quicks
 
 When a Codespace is created comes with Git with credentials of the GitHub account setup ready for development, and basic tools ready for development such as `python`. For more information, read the official [GitHub Documentation](https://docs.github.com/en/codespaces/developing-in-a-codespace/developing-in-a-codespace).
 
+## Git Exercise from Codespaces
+
+### Git and Python Version
+
+After having the Codespace up and running, from the terminal run the following code:
+
+```bash
+git -v
+python -V
+```
+
+The result should be similar as follow, and might differ from the versions on each Codespace:
+
+```bash
+git version 2.43.0
+Python 3.10.13
+```
+
+### Running Python script
+
+Execute the script below script to run the Python code located in [`main.py`](./src/main.py):
+
+```bash
+python -m src.main
+```
+
+Upon successful execution, the script will return: `Congratulations, you are running the a python script from a GitHub Codespace environment. Now, it is 29-01-2024 22:29 and time for further development.`
+
+Please note that the date and time will vary depending on when the script is run.
+
+### Updating the Script
+
+1. Open the python file located on `./src/main.py`
+2. Update the line [6](./src/main.py#6) by updating the `strftime` to `%d-%m-%Y %H:%M:%S`. This update will make the date formatted to return the seconds.
+3. Run the Python script again and should return the date as string with seconds. For example, `29-01-2024 22:35:35`.
+
+Congratulations, you have updated the python script!
+
+### Committing and Pushing the changes
+
+After doing the changes, the next steps is to commit and push the changes to your GitHub repository.
+
+_In order to do this step, the project needs to be created from the template in order to have permission to do changes to the project. Follow this steps [Creating a repository from a template](#creating-a-repository-from-a-template)_
+
+1. Stage the changes
+
+   ```bash
+   git add src/main.py
+   ```
+
+2. Commit the changes
+
+   ```bash
+   git commit -m "Adding seconds to date time formatting:"
+   ```
+
+3. Push the changes
+
+   ```bash
+   git push
+   ```
+
+Congratulations! You have successfully staged, committed, and pushed the changes to the remote repository. The dynamic date and time formatting feature has been added to the[ `main.py`](./src/main.py) script. Now, it is ready for further collaboration and development.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file.
