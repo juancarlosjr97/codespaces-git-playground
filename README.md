@@ -100,7 +100,7 @@ _In order to do this step, the project needs to be created from the template in 
    git push
    ```
 
-Congratulations! You have successfully staged, committed, and pushed the changes to the remote repository. The dynamic date and time formatting feature has been added to the[ `main.py`](./src/main.py) script. Now, it is ready for further collaboration and development.
+Congratulations! You have successfully staged, committed, and pushed the changes to the remote repository. The dynamic date and time formatting feature has been added to the[`main.py`](./src/main.py) script. Now, it is ready for further collaboration and development.
 
 ## License
 
