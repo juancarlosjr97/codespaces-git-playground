@@ -1,17 +1,17 @@
 # Codespaces Git Playground
 
-This project is a guide on how to spin up a fully configured dev environment in the cloud that start ready for development using the blank canvas provided by GitHub using Codespaces.
+This project is a guide on how to spin up a fully configured dev environment in the cloud ready for development using the blank canvas provided by GitHub using Codespaces.
 
 ## Prerequisites
 
-The only prerequisites is to have a GitHub account created.
+GitHub account created.
 
 - [GitHub](https://docs.github.com/en/get-started/quickstart/creating-an-account-on-github)
 
 ## Codespace Benefits: Elevate Your Development Experience 🚀
 
 - Instant, customizable development environment
-- Accessible from any device with internet
+- Accessible from any device with Internet
 - Facilitates real-time collaboration
 - Seamless Git and GitHub integration
 - Scalable with adjustable resources
@@ -24,7 +24,7 @@ The only prerequisites is to have a GitHub account created.
 
 ## Codespace Quickstart using Template
 
-The link below provides a quickstart to spin up a environment using this template as a base project.
+The link below provides a quickstart to spin up an environment using this template as a base project.
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/juancarlosjr97/codespaces-git-playground?quickstart=1)
 
@@ -36,20 +36,20 @@ After creating a project from this template, update the [line](#codespace-quicks
 
 ## Developing in Codespace
 
-When a Codespace is created comes with Git with credentials of the GitHub account setup ready for development, and basic tools ready for development such as `python`. For more information, read the official [GitHub Documentation](https://docs.github.com/en/codespaces/developing-in-a-codespace/developing-in-a-codespace).
+When a Codespace is created it comes with Git automatically authenticated with the credentials of the associated GitHub account. Additionally it comes with basic tools such as `python` ready to start development. For more information, read the official [GitHub Documentation](https://docs.github.com/en/codespaces/developing-in-a-codespace/developing-in-a-codespace).
 
 ## Git Exercise from Codespaces
 
 ### Git and Python Version
 
-After having the Codespace up and running, from the terminal run the following code:
+After you have the Codespace up and running, run the following code from the terminal:
 
 ```bash
 git -v
 python -V
 ```
 
-The result should be similar as follow, and might differ from the versions on each Codespace:
+The result should be similar to the below code, but it might differ from the versions on each Codespace:
 
 ```bash
 git version 2.43.0
@@ -58,20 +58,20 @@ Python 3.10.13
 
 ### Running Python script
 
-Execute the script below script to run the Python code located in [`main.py`](./src/main.py):
+Execute the below script to run the Python code located in [`main.py`](./src/main.py):
 
 ```bash
 python -m src.main
 ```
 
-Upon successful execution, the script will return: `Congratulations, you are running the a python script from a GitHub Codespace environment. Now, it is 29-01-2024 22:29 and time for further development.`
+Upon successful execution, the script will return: `Congratulations, you are running the python script from a GitHub Codespace environment. Now, it is 29-01-2024 22:29 and time for further development.`
 
 Please note that the date and time will vary depending on when the script is run.
 
 ### Updating the Script
 
 1. Open the python file located on `./src/main.py`
-2. Update the line [6](./src/main.py#6) by updating the `strftime` to `%d-%m-%Y %H:%M:%S`. This update will make the date formatted to return the seconds.
+2. Update the line [6](./src/main.py#6) by updating the `strftime` to `%d-%m-%Y %H:%M:%S`. This update will format the date to include seconds.
 3. Run the Python script again and should return the date as string with seconds. For example, `29-01-2024 22:35:35`.
 
 Congratulations, you have updated the python script!
