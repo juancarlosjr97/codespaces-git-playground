@@ -71,7 +71,7 @@ Please note that the date and time will vary depending on when the script is run
 ### Updating the Script
 
 1. Open the python file located on `./src/main.py`
-2. Update the line [4](./src/main.py#6) by updating the `strftime` to `%d-%m-%Y %H:%M:%S`. This update will format the date to include seconds.
+2. Update the line [4](./src/main.py#L4) by updating the `strftime` to `%d-%m-%Y %H:%M:%S`. This update will format the date to include seconds.
 3. Run the Python script again and should return the date as string with seconds. For example, `29-01-2024 22:35:35`.
 
 Congratulations, you have updated the python script!
