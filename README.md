@@ -32,7 +32,7 @@ The link below provides a quickstart to spin up an environment using this templa
 
 Follow this [guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to create a repository from this template.
 
-After creating a project from this template, update the [line](#codespace-quickstart-using-template) markdown replacing `juancarlosjr97/codespaces-git-playground` with the path of the project created. It will be a combination of the GitHub username joined with the name of the GitHub repository as `${GITHUB_USERNAME}/${GITHUB_REPOSITORY}`.
+After creating a project from this template, navigate to the README.md file and switch to code view. Then update the [line 29](#codespace-quickstart-using-template) by replacing `juancarlosjr97/codespaces-git-playground` with the path of the project created. It will be a combination of the GitHub username joined with the name of the GitHub repository as `${GITHUB_USERNAME}/${GITHUB_REPOSITORY}`.
 
 ## Developing in Codespace
 
@@ -42,7 +42,7 @@ When a Codespace is created it comes with Git automatically authenticated with t
 
 ### Git and Python Version
 
-After you have the Codespace up and running, run the following code from the terminal:
+After you have the Codespace up and running, run the following code from the terminal. Ensure you use capital V for the python version command:
 
 ```bash
 git -v
@@ -71,7 +71,7 @@ Please note that the date and time will vary depending on when the script is run
 ### Updating the Script
 
 1. Open the python file located on `./src/main.py`
-2. Update the line [6](./src/main.py#6) by updating the `strftime` to `%d-%m-%Y %H:%M:%S`. This update will format the date to include seconds.
+2. Update the line [4](./src/main.py#6) by updating the `strftime` to `%d-%m-%Y %H:%M:%S`. This update will format the date to include seconds.
 3. Run the Python script again and should return the date as string with seconds. For example, `29-01-2024 22:35:35`.
 
 Congratulations, you have updated the python script!
