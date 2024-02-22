@@ -2,6 +2,9 @@
 
 This project is a guide on how to spin up a fully configured dev environment in the cloud ready for development using the blank canvas provided by GitHub using Codespaces.
 
+> [!WARNING]
+> Codespaces are deleted automatically after 30 days of inactivity. Read more about [Codespace lifecycle][1].
+
 ## Prerequisites
 
 GitHub account created.
@@ -110,3 +113,5 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 - [CODESPACES DOCUMENTATION](https://docs.github.com/en/codespaces)
 - [LICENSE](./LICENSE.md)
+
+[1]: https://docs.github.com/en/codespaces/getting-started/understanding-the-codespace-lifecycle
