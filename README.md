@@ -31,6 +31,13 @@ The link below provides a quickstart to spin up an environment using this templa
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/juancarlosjr97/codespaces-git-playground?quickstart=1)
 
+## Codeanywhere Quickstart using Template
+
+The link below provides a quickstart to spin up an environment using this template as a base project.
+
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/juancarlosjr97/codespaces-git-playground)
+
+
 ## Creating a repository from a template
 
 Follow this [guide][3] to create a repository from this template.
