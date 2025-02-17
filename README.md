@@ -55,8 +55,8 @@ python -V
 The result should be similar to the below code, but it might differ from the versions on each Codespace:
 
 ```bash
-git version 2.43.0
-Python 3.10.13
+git version 2.47.1
+Python 3.12.1
 ```
 
 ### Running Python script
